@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     member do
       patch :complete
     end
+  end
   root 'items#index'
+  
 end
